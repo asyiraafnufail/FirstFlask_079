@@ -55,5 +55,32 @@ input {
 
 input:focus {
     border-color: #4facfe;
-   
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.6);
+}
+
+/* Stylish Button */
+.btn {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #4facfe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #00f2fe;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: #0088cc;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.8);
 }
